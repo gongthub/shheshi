@@ -5,40 +5,40 @@
 new WOW().init();
 // $(function () {})
 $(function() {
-	wbannertop();
-	indexProjectShow();
-	showindexvideo();
-	$(".div-project-center-btn-img").mouseover(function() {
-		initIndexProjectBtnMous(this);
-	});
+    initIndexLB();
+//	wbannertop();
+//	indexProjectShow();
+//	showindexvideo();
+//	$(".div-project-center-btn-img").mouseover(function() {
+//		initIndexProjectBtnMous(this);
+//	});
+//
+//	$(".d-new-center-a").mouseenter(function() {
+//		$(this).find(".w-news-item-center-img-m").css("display", "none");
+//		$(this).find(".w-news-item-center-img-o").css("display", "block");
+//		$(this).find(".w-news-item-center-span-title").attr("class", "w-news-item-center-span-title-hover")
+//
+//	});
+//	$(".d-new-center-a").mouseleave(function() {
+//		$(this).find(".w-news-item-center-img-m").css("display", "block");
+//		$(this).find(".w-news-item-center-img-o").css("display", "none");
+//		$(this).find(".w-news-item-center-span-title-hover").attr("class", "w-news-item-center-span-title")
+//
+//	});
+//	$(".w-lender-area-a").mouseenter(function() {
+//		$(this).find(".w-lender-area-center").attr("class", "w-lender-area-center-hover")
+//		$(this).find(".w-lender-area-center-text").attr("class", "w-lender-area-center-text-hover")
+//		$(this).find(".w-lender-area-center-text-en").attr("class", "w-lender-area-center-text-en-hover")
+//
+//	});
+//	$(".w-lender-area-a").mouseleave(function() {
+//		$(this).find(".w-lender-area-center-hover").attr("class", "w-lender-area-center")
+//		$(this).find(".w-lender-area-center-text-hover").attr("class", "w-lender-area-center-text")
+//		$(this).find(".w-lender-area-center-text-en-hover").attr("class", "w-lender-area-center-text-en")
+//
+//	});
 
-	$(".d-new-center-a").mouseenter(function() {
-		$(this).find(".w-news-item-center-img-m").css("display", "none");
-		$(this).find(".w-news-item-center-img-o").css("display", "block");
-		$(this).find(".w-news-item-center-span-title").attr("class", "w-news-item-center-span-title-hover")
-
-	});
-	$(".d-new-center-a").mouseleave(function() {
-		$(this).find(".w-news-item-center-img-m").css("display", "block");
-		$(this).find(".w-news-item-center-img-o").css("display", "none");
-		$(this).find(".w-news-item-center-span-title-hover").attr("class", "w-news-item-center-span-title")
-
-	});
-	$(".w-lender-area-a").mouseenter(function() {
-		$(this).find(".w-lender-area-center").attr("class", "w-lender-area-center-hover")
-		$(this).find(".w-lender-area-center-text").attr("class", "w-lender-area-center-text-hover")
-		$(this).find(".w-lender-area-center-text-en").attr("class", "w-lender-area-center-text-en-hover")
-
-	});
-	$(".w-lender-area-a").mouseleave(function() {
-		$(this).find(".w-lender-area-center-hover").attr("class", "w-lender-area-center")
-		$(this).find(".w-lender-area-center-text-hover").attr("class", "w-lender-area-center-text")
-		$(this).find(".w-lender-area-center-text-en-hover").attr("class", "w-lender-area-center-text-en")
-
-	});
-
-	initLender();
-
+//	initLender();
 })
 //resize
 $(window).resize(function() {
@@ -181,4 +181,12 @@ function initShow(ele, showEle, eleEvent,w,h) {
 		}
 	});
 
+}
+
+function initIndexLB() {
+    var items = $("#carousel-example-vertical").find(".carousel-inner").find(".item");
+    if (items != null && items.length > 0) {
+        var itemOne = items[0];
+        $(itemOne).addClass("active");
+    }
 }
