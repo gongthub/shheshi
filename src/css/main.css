@@ -1429,7 +1429,7 @@ background-color: black;
 }
 
 .w-ind-tit-ry {
-    width: 70%;
+    width: 90%;
     font-size: 22px;
     line-height: 30px;
     margin-left: 15px;
@@ -1539,7 +1539,7 @@ background-color: black;
 .honor-div-cent-all-right {
     position: relative;
     width: 100%;
-    margin-left: 10%;
+    margin-left: 30%;
     padding-bottom: 20px;
 }
 
@@ -1857,6 +1857,10 @@ background-color: black;
     margin-left:10px;
 }
 .detail-cent-main-cent {
-    margin-top: 20px
+    margin-top: 20px;
+   
+}
+.detail-cent-main-cent img {
+    width: 100%;
 }
 /*******detail end*******/
