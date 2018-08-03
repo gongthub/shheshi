@@ -433,11 +433,6 @@ background-color: black;
 }
 
 /*index-news*/
-.w-ind-wrap {
-    padding: 50px 0;
-    overflow: hidden;
-}
-
 .w-news-wrap {
     background-color: #7ba1a8;
 }
@@ -487,21 +482,6 @@ background-color: black;
         text-transform: uppercase;
     }
 
-.w-ind-wrap:hover em:after {
-    width: 100%;
-    left: 0;
-}
-
-.w-news-area {
-    box-sizing: border-box;
-    width: 100%;
-    /* height: 340px;*/
-    margin: 10px auto;
-    position: relative;
-    max-width: 375px;
-    background-color: #fff;
-}
-
 .w-news-href {
     position: absolute;
     width: 100%;
@@ -515,12 +495,6 @@ background-color: black;
     display: none;
 }
 
-.w-course-img {
-    position: relative;
-    width: 100%;
-    height: 220px;
-    overflow: hidden;
-}
 
 .w-news-img {
     width: 100%;
@@ -895,6 +869,9 @@ background-color: black;
     margin-top: 30px;
     color: #999999;
 }
+.w-footer-top-cent a {
+    color: #999999;
+}
 
 .w-footer-top-cent-textdetail {
     margin-top: 30px;
@@ -1152,22 +1129,6 @@ background-color: black;
     color: #ffffff;
 }
 
-#div_company_pos {
-    min-height: 300px;
-    background-color: #f0f5f9;
-    text-align: center;
-}
-
-.div-company-pos-title {
-    line-height: 50px;
-    color: #ffa60a;
-    font: bold;
-    letter-spacing: 3px;
-    font-size: 28px;
-    text-align: center;
-    margin-top: 50px;
-}
-
 .div-company-pos-desc {
     width: 50%;
     margin: 0 auto;
@@ -1417,10 +1378,6 @@ background-color: black;
     top: 80%;
 }
 
-.w-projectlist-top {
-    margin-top: 50px;
-}
-
 .w-ind-tit-ry-all {
     font-size: 22px;
     line-height: 30px;
@@ -1434,13 +1391,6 @@ background-color: black;
     line-height: 30px;
     margin-left: 15px;
 }
-
-.index-projectlist-title {
-    color: white;
-    margin-top: 150px;
-    letter-spacing: 10px;
-}
-
 .w-ind-tit-title-left {
     font-size: 28px;
     color: #000;
@@ -1453,7 +1403,7 @@ background-color: black;
 }
 
 .w-ind-tit-title-cent {
-    font-style: italic;
+	font-family: "微软雅黑";
     color: #777777;
     font-size: 18px;
 }
@@ -1659,7 +1609,7 @@ background-color: black;
 }
 
 .w-ind-tit-title-cent-projectinfo {
-    font-style: italic;
+	font-family: "微软雅黑";
     color: #777777;
     font-size: 18px;
 }
@@ -1677,8 +1627,9 @@ background-color: black;
     color: #777777;
 }
 
-.about-content-all {
-    margin-top: 20px;
+.about-common-desc img {
+	width: 100%;
+	height: 100%;
 }
 
 .about-left-all-about {
@@ -1747,11 +1698,6 @@ background-color: black;
 /*******honner end*******/
 
 /*******comm start*******/
-.comm_div_banner {
-    min-height: 300px;
-    text-align: center;
-}
-
 .comm_div_cent_all {
     padding-bottom: 30px;
     margin: 0 auto;
@@ -1808,33 +1754,6 @@ background-color: black;
 
 .new-ulContent-left-text-ul {
     margin-top: 10px;
-}
-
-.new-ulContent-right-text {
-    text-align: left;
-    font-size: 9px;
-    margin-left: 20px;
-    width: 95%;
-}
-
-    .new-ulContent-right-text a:hover {
-        color: #ffa60a;
-    }
-
-.new-ulContent-right-text-title {
-    font-size: 16px;
-}
-
-.new-ulContent-right-text-cent {
-    color: #777777;
-    font-size: 12px;
-}
-
-.new-ulContent-right-text-left {
-    color: #777777;
-    font-size: 12px;
-    position: absolute;
-    right: 20%;
 }
 
 /*******detail start*******/
