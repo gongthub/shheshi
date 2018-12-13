@@ -1,4 +1,4 @@
-/*transtation*/
+﻿/*transtation*/
 
 .w-navwrap .navbar-nav > li:after,
 .w-navwrap .navbar-nav li.active:after,
@@ -1311,6 +1311,7 @@ background-color: black;
     top: 50%;
     width: 50px;
     left: 50px;
+    margin-top: -20px;
     background: none !important;
 }
 
@@ -1318,6 +1319,7 @@ background-color: black;
     height: 40px;
     top: 50%;
     width: 50px;
+    margin-top: -20px;
     right: 50px !important;
     background: none !important;
 }
